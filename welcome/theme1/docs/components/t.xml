@@ -1,0 +1,21 @@
+<div class='nav1' style='position: fixed; width: 100%; z-index: 2;'>
+<div class='headImg-D'><span id='H-title' style=' font-size: 200%;'></span></div>
+</div>
+<div class='nav1'>
+<ul class='sidenav'>
+<span id='list-D-H'></span>
+<span><li id='list-Desktop'></li></span>
+<span id='list-D-F'></span>
+</ul>
+</div>
+<div class='sidepanel' id='mySidepanel'>
+<a title="close" class='closebtn' href='javascript:void(0)' id='closeBtn' onclick='closeNav()'>&#215;</a>
+<span id='list-M-H'></span>
+<span id='list-Mobile' ></span>
+<span id='list-M-F'></span>
+</div>
+<div class='mobNav1'>
+<button title="open" class='openbtn' id='openNav' onclick='openNav()'>&#9776;</button>
+<div class='headImg'><span id='h-title' style='font-size: 200%;'></span></div>
+</div>
+<div id='back-btn'></div>

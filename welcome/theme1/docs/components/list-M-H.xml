@@ -1,0 +1,1 @@
+<a href='#' onclick="loadXMLContent('post','home.html'),closeNav()">Home</a> 

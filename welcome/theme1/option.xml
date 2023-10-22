@@ -1,0 +1,3 @@
+<a href='#' onclick="loadXMLContent('post','../contents/library.html'),closeNav()"><span>Library</span></a>
+<a href='#' onclick="loadXMLContent('post','../contents/About-me.html'),closeNav()">About Me</a>
+<a href='#' onclick="loadXMLContent('post','../contents/privacy.html'),closeNav()">Privacy Policy</a> 
