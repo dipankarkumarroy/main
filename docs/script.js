@@ -80,7 +80,7 @@ function loadXMLContent(position,postId) {
 }
 
 loadXMLComponent("theme","docs/components/t.xml");
-loadXMLComponent("H-title","docs/components/H-title.xml");
+loadXMLComponent("H-title","docs/components/H-d-title.xml");
 loadXMLComponent("h-title","docs/components/h-title.xml");
 loadXMLComponent("list-D-H","docs/components/list-D-H.xml");
 loadXMLComponent("list-M-H","docs/components/list-M-H.xml");
