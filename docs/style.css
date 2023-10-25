@@ -218,7 +218,7 @@ div.content {
 #back-btn
 {
   position: fixed;
-  top: 3px;
+  top: 0;
   right: 0;
   z-index: 3;
 }
