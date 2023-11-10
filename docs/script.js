@@ -17,10 +17,10 @@ function openNav() {
     xhttp.send();
   }
 
-window.addEventListener("hashchange", function(e) {
+/*window.addEventListener("hashchange", function(e) {
     if(e.oldURL.length > e.newURL.length)
         alert("want to back?")
-});
+});*/
 
 class Stack {
   constructor() {
@@ -87,4 +87,4 @@ loadXMLComponent("list-M-H","docs/components/list-M-H.xml");
 loadXMLComponent("list-Mobile","option.xml");
 loadXMLComponent("list-Desktop","option.xml");
 
-loadXMLContent('post','home.html');
+loadXMLContent('post','contents/home.html');
