@@ -79,6 +79,24 @@ function loadXMLContent(position,postId) {
   xhttp.send();
 }
 
+function loadEx(position,postId) {
+
+          // Fetch external content using crossorigin.me as a proxy
+          fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(postId)}`)
+          .then(response => {
+              if (!response.ok) {
+                  throw new Error('Network response was not ok');
+              }
+              return response.text();
+          })
+          .then(html => {
+              // Insert the HTML into the specified element
+              document.getElementById(position).innerHTML = html;
+          })
+          .catch(error => console.error('Error loading external content:', error));
+}
+
+
 loadXMLComponent("theme","docs/components/t.xml");
 loadXMLComponent("H-title","docs/components/H-d-title.xml");
 loadXMLComponent("h-title","docs/components/h-title.xml");
