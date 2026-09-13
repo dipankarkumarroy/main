@@ -1,5 +1,5 @@
 <!--<a href='#' onclick="loadXMLContent('post','contents/projects'),closeNav()">Projects</a> -->
 <a href='#' onclick="loadXMLContent('post','contents/library'),closeNav()"><span>Library</span></a>
-<a href='/articles' onclick="closeNav()" target="_blank">Articles</a> 
+<!--<a href='/articles' onclick="closeNav()" target="_blank">Articles</a> -->
 <a href='#' onclick="loadXMLContent('post','contents/About-me'),closeNav()">About Me</a>
 <a href='#' onclick="loadXMLContent('post','contents/privacy'),closeNav()">Privacy Policy</a> 
